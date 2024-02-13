@@ -4,7 +4,7 @@
 // Main function
 int main()
 {
-    int a = 10, b = 20, change(int x, int y);
+    int a = 10, b = 20, change(int, int);
 
     printf("In the Main() After Change():\na = %d b = %d\n", a, b);
 
