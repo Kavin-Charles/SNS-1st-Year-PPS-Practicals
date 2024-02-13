@@ -7,11 +7,11 @@ int main()
 
     printf("In the Main() After Change():\na = %d b = %d\n", x, y);
 
-    swapx(&x, &y); // Actual Parameters
+    change(&x, &y); // Actual Parameters
  
     printf("In the Main() After Change():\na = %d b = %d\n", x, y);
  
-    return 0;
+    getch();
 }
  
 int change(int a, int b) // Formal Parameters
