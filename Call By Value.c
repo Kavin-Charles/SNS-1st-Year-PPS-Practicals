@@ -4,24 +4,24 @@
 // Main function
 int main()
 {
-    int a = 10, b = 20, change(int, int);
+    int x = 10, y = 20, change(int, int);
 
-    printf("In the Main() After Change():\na = %d b = %d\n", a, b);
+    printf("In the Main() After Change():\na = %d b = %d\n", x, y);
 
-    swapx(a, b); // Actual Parameters
+    change(x, y); // Actual Parameters
  
-    printf("In the Main() After Change():\na = %d b = %d\n", a, b);
+    printf("In the Main() After Change():\na = %d b = %d\n", x, y);
  
-    return 0;
+    getch();
 }
  
 int change(int x, int y) // Formal Parameters
 {
     int t;
  
-    t = x;
-    x = y;
-    y = t;
+    t = a;
+    a = b;
+    b = t;
  
-    printf("Inside Function:\nx = %d y = %d\n", x, y);
+    printf("Inside Function:\nx = %d y = %d\n", a, b);
 }
